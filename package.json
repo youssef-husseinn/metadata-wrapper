@@ -28,5 +28,6 @@
     "dotenv": "^16.4.7",
     "jsdom": "^25.0.1",
     "yargs": "^17.7.2"
-  }
+  },
+  "types": "index.d.ts"
 }
