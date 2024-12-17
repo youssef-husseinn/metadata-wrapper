@@ -6,7 +6,9 @@ A Node.js package for dynamically updating SEO metadata in HTML content. This pa
 npm install metadata-wrapper
 ``` 
 
-## Usage ### Example 
+## Usage 
+
+### Example 
 ```javascript
 import metadataWrapper from 'metadata-wrapper';
 const html = `<html><head></head><body></body></html>`;
