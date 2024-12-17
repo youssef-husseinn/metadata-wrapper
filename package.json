@@ -1,0 +1,32 @@
+{
+  "name": "metadata-wrapper",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./test/lorem.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youssef-husseinn/metadata-wrapper.git"
+  },
+  "keywords": [
+    "html",
+    "head",
+    "meta",
+    "metadata"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youssef-husseinn/metadata-wrapper/issues"
+  },
+  "homepage": "https://github.com/youssef-husseinn/metadata-wrapper#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "jsdom": "^25.0.1",
+    "yargs": "^17.7.2"
+  }
+}
