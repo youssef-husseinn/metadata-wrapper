@@ -24,7 +24,7 @@ const apiKey = "YOUR_API_KEY";
 metadataWrapper(html, metaBody, apiKey).then(updatedHtml => {
     console.dir(updatedHtml)
 }).catch(err => {
-    console.error("Error updating metadata:", error)
+    console.error("Error generating metadata:", error.message)
 })
 ```
 
