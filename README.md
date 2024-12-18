@@ -1,7 +1,7 @@
 # metadata-wrapper 
 A Node.js package for dynamically updating SEO metadata in HTML content. This package allows you to generate or modify the metadata (title, description, keywords) in the HTML `<head>` based on an API request. 
 
-## Installation Install the package using npm: 
+## Installation
 ```bash
 npm install metadata-wrapper
 ``` 
