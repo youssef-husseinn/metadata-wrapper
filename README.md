@@ -12,8 +12,14 @@ npm install metadata-wrapper
 ```javascript
 import metadataWrapper from 'metadata-wrapper';
 const html = `<html><head></head><body></body></html>`;
-const metaBody = { url: "/example", type: "article", };
-const apiKey = "your-api-key";
+const metaBody = { 
+    route: "/test",
+    term: "test",
+    lang: "en",
+    country: "EG",
+    solution: "test"
+};
+const apiKey = "YOUR_API_KEY";
 
 metadataWrapper(html, metaBody, apiKey).then(updatedHtml => {
     console.dir(updatedHtml)
@@ -21,6 +27,8 @@ metadataWrapper(html, metaBody, apiKey).then(updatedHtml => {
     console.error("Error updating metadata:", error)
 })
 ```
+
+[You can get your API_KEY from docs HERE!](http://localhost:3030/docs/intro)
 
 ### Function Signature 
 ```typescript 
